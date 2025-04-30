@@ -62,8 +62,89 @@ h1 {
    color: Black;
 }
 
+h2 {
+   color: rgb(137, 129, 129);
+   padding-bottom: 25px;
+   text-transform: uppercase;
+}
+
 .logo-alignment {
    width: 50px;
    height: auto;
    display: block;
+}
+
+@keyframes pop {
+   0% {
+      transform: scale(1);
+   }
+   50% {
+      transform: scale(1.4);
+   }
+   100% {
+      transform: scale(1);
+   }
+}
+
+footer {
+   background-color: black;
+   padding-top: 30px;
+   padding-right: 0;
+   padding-bottom: 15px;
+   padding-left: 0;
+}
+
+.footer-container {
+   display: flex;
+   justify-content: flex-start;
+   gap: 100px;
+   margin: 0 0 0 32px;
+}
+
+.column ul {
+   list-style: none;
+   padding: 0;
+}
+
+.column ul li {
+   margin: 0 0 10px 0;
+}
+
+.column ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+.column ul li a:hover {
+   text-decoration: underline;
+}
+
+.social {
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 35px;
+   width: 95%;
+   gap: 5px;
+}
+
+.footer-copyright {
+   font-size: 15px;
+   color: white;
+   padding-top: 20px;
+   margin-left: 30px;
+}
+
+.wrapper.social a {
+   margin: 0 10px;
+   font-size: 20px;
+   color: rgb(137, 129, 129);
+}
+
+.wrapper.social a:hover {
+   color: white;
+}
+
+.wrapper.social a:active {
+   color: white;
+   animation: pop 0.4s ease-in-out;
 }
