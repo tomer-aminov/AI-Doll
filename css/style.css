@@ -300,3 +300,13 @@ main .hero-p {
    color: #333;
    font-size: 16px;
 }
+
+.pictures-of-products {
+   padding: 40px 0;
+}
+
+.pictures-products-design-class {
+   height: 400px;
+   border: 2px solid purple;
+   object-fit: cover;
+}
