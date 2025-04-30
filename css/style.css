@@ -335,3 +335,15 @@ main .hero-p {
    color: black;
    margin-right: 15px;
 }
+
+.video h3 {
+   font-size: 36px;
+   color: black;
+   padding-bottom: 20px;
+}
+
+.video iframe {
+   height: 500px;
+   padding-bottom: 70px;
+   width: 100%;
+}
