@@ -310,3 +310,28 @@ main .hero-p {
    border: 2px solid purple;
    object-fit: cover;
 }
+
+.sect-list-dolls {
+   padding: 30px 0;
+}
+
+.sect-list-dolls h3 {
+   font-size: 36px;
+   margin-bottom: 20px;
+   color: black;
+}
+
+.list-dolls {
+   list-style: none;
+}
+
+.list-dolls li {
+   margin-bottom: 25px;
+   font-size: 25px;
+   color: black;
+}
+
+.list-dolls i {
+   color: black;
+   margin-right: 15px;
+}
