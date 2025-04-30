@@ -148,3 +148,42 @@ footer {
    color: white;
    animation: pop 0.4s ease-in-out;
 }
+
+.image-hero {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 85vh;
+   display: flex;
+   align-items: center;
+}
+
+.image-hero img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+main .hero-p {
+   position: absolute;
+   left: 5%;
+   top: 50%;
+   transform: translateY(-50%);
+   color: white;
+   max-width: 500px;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+   z-index: 1;
+}
+
+.hero-p h1 {
+   font-size: 3rem;
+   margin-bottom: 20px;
+   font-family: 'Raleway', sans-serif;
+   color: white;
+}
+
+.hero-p p {
+   font-size: 1.1rem;
+   line-height: 1.5;
+   width: 60%;
+}
